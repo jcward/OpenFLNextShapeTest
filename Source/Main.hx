@@ -76,6 +76,8 @@ class Main extends Sprite {
     info = "cpp+";
 #elseif flash
     info = "flash+";
+#elseif html5
+    info = "html5+";
 #else
     info = "other+";
 #end
